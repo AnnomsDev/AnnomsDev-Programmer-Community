@@ -9,8 +9,8 @@ const gloveIcon = <FontAwesomeIcon className='icon' icon={faGlobe} />
 const xpIcon = <FontAwesomeIcon className='icon' icon={faRadiation} />
 
 const Programmer = (props) => {
-    const { name, username, country, education, badges, xp, img } = props.programmer
-    console.log(props.programmer)
+    const { name, username, country, education, badges, xp, img} = props.programmer
+    const {handleAddToClan} = props
 
     return (
         <div className='programmer'>
@@ -26,7 +26,7 @@ const Programmer = (props) => {
                 {gloveIcon}<p><b>Country: </b>{country}</p>
                 {xpIcon}<p><b>XP: </b>{xp}</p>
             </div>
-            <button>Add To Clan</button>
+            <button onClick={handleAddToClan} >Add To Clan</button>
 
         </div>
     );

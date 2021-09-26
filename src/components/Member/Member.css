@@ -1,0 +1,13 @@
+.member{
+    border-radius: 30px;
+    display: flex;
+    padding: 5px;
+    box-shadow: 0 3px 10px 0 rgb(107, 107, 107);
+    margin-bottom: 5px;
+
+}
+.member img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}

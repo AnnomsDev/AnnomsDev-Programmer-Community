@@ -5,6 +5,7 @@ import './Community.css'
 
 const Community = () => {
     const [programmers, setProgrammers] = useState([])
+    const [clan, setClan] = useState([])
 
     useEffect(() => {
         fetch('./fakeDB.json')
@@ -12,22 +13,25 @@ const Community = () => {
             .then(data => setProgrammers(data))
     }, [])
 
-
+    const handleAddToClan = programmer => {
+        // return if member already exist in clan.
+        if (clan.find(member => member.key == programmer.key)) return;
+        setClan([...clan, programmer])
+    }
 
     return (
         <div className='community'>
             <div className='programmer-container'>
-                {/* app programmers will be added here */}
                 {
                     programmers.map(programmer => <Programmer
                         key={programmer.key}
                         programmer={programmer}
+                        handleAddToClan={() => handleAddToClan(programmer)}
                     ></Programmer>)
                 }
 
             </div>
-            {/* clan: All selected programmer will be added here like cart */}
-            <Clan></Clan>
+            <Clan clan={clan}></Clan>
         </div>
     );
 };
