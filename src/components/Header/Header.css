@@ -13,8 +13,10 @@
     margin: 0;
 
 }
-.header h1{
-    font-size: 25px;
+.header h3{
+    margin: 10px;
+
+
 }
 .header span{
     color: rgb(39, 221, 69);
