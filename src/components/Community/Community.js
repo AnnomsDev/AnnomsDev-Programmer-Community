@@ -5,11 +5,11 @@ import './Community.css'
 const Community = () => {
     return (
         <div className='community'>
-            <div className='community-container'>
+            <div className='programmer-container'>
                 {/* app programmers will be added here */}
             </div>
             {/* clan: All selected programmer will be added here like cart */}
-            <Clan></Clan> 
+            <Clan></Clan>
         </div>
     );
 };

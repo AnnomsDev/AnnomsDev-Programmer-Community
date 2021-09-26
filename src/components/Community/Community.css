@@ -1,3 +1,10 @@
 .community{
-    
+    margin: 2em 5em;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.programmer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
 }

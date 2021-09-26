@@ -4,7 +4,7 @@ import './Clan.css'
 const Clan = () => {
     return (
         <div>
-            
+            <h1>from Clan</h1>
         </div>
     );
 };
