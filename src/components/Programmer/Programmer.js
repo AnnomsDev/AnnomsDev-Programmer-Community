@@ -14,7 +14,6 @@ const Programmer = (props) => {
 
     return (
         <div className='programmer'>
-            {/* <h1>from Programmer</h1> */}
             <div className="top-container">
                 <img src={img} alt="" />
                 <h2>{name}</h2>
