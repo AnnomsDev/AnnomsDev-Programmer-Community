@@ -6,12 +6,9 @@ const Clan = (props) => {
     const { clan } = props;
 
     let totalXp = 0;
-
     for (const programmer of clan) {
         totalXp += programmer.xp;
     }
-
-
 
     return (
         <div className='clan'>
@@ -22,13 +19,11 @@ const Clan = (props) => {
             <div className="memmbers-containner">
                 {
                     clan.map(member => <Member
-                    key={member.key}
-                    member ={member}
+                        key={member.key}
+                        member={member}
                     ></Member>)
                 }
-
-
-        </div>
+            </div>
         </div >
     );
 };

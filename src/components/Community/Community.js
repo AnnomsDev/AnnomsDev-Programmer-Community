@@ -15,7 +15,7 @@ const Community = () => {
 
     const handleAddToClan = programmer => {
         // return if member already exist in clan.
-        if (clan.find(member => member.key == programmer.key)) return;
+        if (clan.find(member => member.key === programmer.key)) return;
         setClan([...clan, programmer])
     }
 
@@ -29,7 +29,6 @@ const Community = () => {
                         handleAddToClan={() => handleAddToClan(programmer)}
                     ></Programmer>)
                 }
-
             </div>
             <Clan clan={clan}></Clan>
         </div>

@@ -6,7 +6,6 @@ const Member = (props) => {
     
     return (
         <div className='member'>
-
             <img src={img} alt="" />
             <div>
                 <p><b>{name}</b></p>
