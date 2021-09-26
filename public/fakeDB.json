@@ -6,7 +6,7 @@
         "country": "United States",
         "education": "Ho Chi Minh City University of Natural Sciences, Ho Chi Minh City",
         "badges": "problemSolving",
-        "salary": 2508,
+        "xp": 2508,
         "img": "https://hrcdn.net/s3_pub/hr-avatars/ce538d93-74c4-412c-99d3-acf58bfdd914/150x150.png"
     },
     {
@@ -16,7 +16,7 @@
         "country": "Bangladesh",
         "education": "University of Dhaka",
         "badges": "problemSolving, Python, Sql ",
-        "salary": 2548,
+        "xp": 2548,
         "img": "https://hrcdn.net/s3_pub/hr-avatars/d4dfd888-b5dc-424b-8c41-68445adc6844/150x150.png"
     },
     {
@@ -26,7 +26,7 @@
         "country": "China",
         "education": "University of Electronic Science and Technology of China",
         "badges": "problemSolving, Java, Python, Sql",
-        "salary": 2842,
+        "xp": 2842,
         "img": "https://hrcdn.net/s3_pub/hr-avatars/30c13c87-f5a6-4be7-8671-e7e6f2c46634/150x150.png"
     },
     {
@@ -36,7 +36,7 @@
         "country": "Latvia",
         "education": "University of Latvia, Rīga",
         "badges": "problemSolving",
-        "salary": 2754,
+        "xp": 2754,
         "img": "https://hrcdn.net/s3_pub/hr-avatars/5d32e4e3-fd45-442e-8cfd-386d82a1daad/150x150.png"
     },
     {
@@ -46,7 +46,7 @@
         "country": "Brazil",
         "education": "Universidade Federal da Bahia",
         "badges": "problemSolving",
-        "salary": 2505,
+        "xp": 2505,
         "img": "https://secure.gravatar.com/avatar/14e7faf56e67b96e2f82850fa59eef6e?d=https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&s=150"
     },
     {
@@ -56,7 +56,7 @@
         "country": "Russian Federation",
         "education": "St. Petersburg State University",
         "badges": "problemSolving, Sql",
-        "salary": 2504,
+        "xp": 2504,
         "img": "https://secure.gravatar.com/avatar/b09d4a96700cad15ebfa201e6b8c89df?d=https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&s=150"
     },
     {
@@ -66,7 +66,7 @@
         "country": "United States",
         "education": "Rochester Institute if Technology,Rochester",
         "badges": "problemSolving",
-        "salary": 2500,
+        "xp": 2500,
         "img": "https://secure.gravatar.com/avatar/6acf272cf32a76cf4fc26a5e292c03de?d=https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&s=150"
     },
     {
@@ -76,7 +76,7 @@
         "country": "Philippines",
         "education": "Ateneo de Manila University",
         "badges": "problemSolving",
-        "salary": 2497,
+        "xp": 2497,
         "img": "https://hrcdn.net/s3_pub/hr-avatars/b186126c-b198-4cd8-9b0f-e5ebbad706ba/150x150.png"
     }
 ]

@@ -3,7 +3,7 @@
 .programmer{
     padding: 25px;
     background-color:  white;
-    height: 500px;
+    /* height: 500px; */
     box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
     border-radius: 10px;
 }
@@ -23,16 +23,18 @@
     height: 120px;
 }
 .programmer .details{
-    margin-top: 50px;
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 2em 1fr;
+    min-height: 15em;
+    margin-bottom: 1.5em;
 }
 .programmer .details *{
     font-size: 18px;
-    margin-bottom: 10px;
 }
 .programmer .details .icon{
     padding-top: 3px;
+    color: rgba(0, 0, 0, 0.651);
 }
 .programmer button{
     width: 100%;
@@ -40,6 +42,5 @@
     border-radius: 5px;
     color: white;
     padding: .7em 1.5em;
-    margin: 2em auto;
     background-color: black;
 }
