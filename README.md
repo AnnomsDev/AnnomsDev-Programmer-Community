@@ -1,6 +1,6 @@
 # AnnomsDev Programmer Community
 
-Site : [AnnomsDev Programmer Community](https:)
+Site : [AnnomsDev Programmer Community](https://annomsdev-programmer-community.netlify.app/)
 
 ## Details
 This a cummunity Site. You can create own clan of programmers. 
@@ -10,4 +10,4 @@ This a cummunity Site. You can create own clan of programmers.
   - Vanilla css
 
 ## ScreanShot:
-![MarineGEO circle logo](./src/utilities/screenshot.png "AnnomsDev Programmer Community")
+![AnnomsDev Programer Community ScreenShot](/src/utilities/Screenshot.png "AnnomsDev Programmer Community")
